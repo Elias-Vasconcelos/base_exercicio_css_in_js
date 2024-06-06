@@ -9,15 +9,14 @@ export const Form = styled.form`
   margin-top: 40px;
 `
 export const ButtonPesquisar = styled.button`
-  background-color: ${(props) => props.theme.corPrimaria});
-  border: 1px solid ${(props) => props.theme.corPrimaria});
+  background-color: ${(props) => props.theme.corPrimaria};
+  border: 1px solid ${(props) => props.theme.corPrimaria};
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
   color: ${(props) => props.theme.corSegundaria};
   margin-left: 8px;
   cursor: pointer;
-}
 `
 
 export const Campo = styled.input`
